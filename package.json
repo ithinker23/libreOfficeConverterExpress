@@ -1,0 +1,30 @@
+{
+  "name": "libreofficeconverterexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "bin": "app.js",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "libreoffice-convert": "^1.4.1",
+    "node-windows": "^1.0.0-beta.8",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "pkg": {
+    "assets": [
+      "services/**/*",
+      "routes/*.jpg",
+      "node_modules/**/*",
+      "controllers/**/*"
+    ]
+  }
+}
